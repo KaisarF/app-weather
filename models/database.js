@@ -12,7 +12,7 @@ const getDB = async({NODE_ENV}) => {
                 port:5432,
                 database:'weather_dashboard',
                 user:'kaisar',
-                password:'Kaisar12345'
+                password:'root'
             })
         }else{
             db = await massive({
